@@ -1,5 +1,6 @@
-package com.kulpreet.springBoot1.employee;
+package com.kulpreet.springBoot1.Dao;
 
+import com.kulpreet.springBoot1.DTO.Employee;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

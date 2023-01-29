@@ -1,5 +1,7 @@
-package com.kulpreet.springBoot1.employee;
+package com.kulpreet.springBoot1.Service;
 
+import com.kulpreet.springBoot1.DTO.Employee;
+import com.kulpreet.springBoot1.Dao.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

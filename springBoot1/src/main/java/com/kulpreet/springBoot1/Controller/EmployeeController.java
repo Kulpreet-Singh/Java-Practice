@@ -1,6 +1,8 @@
-package com.kulpreet.springBoot1.employee;
+package com.kulpreet.springBoot1.Controller;
 
-import com.kulpreet.springBoot1.department.Department;
+import com.kulpreet.springBoot1.DTO.Employee;
+import com.kulpreet.springBoot1.Service.EmployeeService;
+import com.kulpreet.springBoot1.DTO.Department;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.kulpreet.springBoot1.department;
+package com.kulpreet.springBoot1.DTO;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -1,5 +1,7 @@
-package com.kulpreet.springBoot1.department;
+package com.kulpreet.springBoot1.Service;
 
+import com.kulpreet.springBoot1.DTO.Department;
+import com.kulpreet.springBoot1.Dao.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
