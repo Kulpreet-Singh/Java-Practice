@@ -16,4 +16,16 @@ public class HomeController {
         logger.debug("Printing welcome message");
         return ("<h1> Welcome to the Homepage of Employee Department Management Project </h1>");
     }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/user")
+    public String user(){
+        logger.debug("Printing welcome message for user");
+        return ("<h1> Welcome User to the Homepage of Employee Department Management Project </h1>");
+    }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/admin")
+    public String admin(){
+        logger.debug("Printing welcome message for admin");
+        return ("<h1> Welcome Admin to the Homepage of Employee Department Management Project </h1>");
+    }
 }
